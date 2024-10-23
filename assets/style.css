@@ -244,6 +244,15 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+span.carousel-control-prev-icon {
+	color: black;
+	background-color: #000;
+}
+
+span.carousel-control-next-icon {
+	background-color: black;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;

@@ -177,7 +177,6 @@ body {
 	justify-content: space-between;
 	display: flex;
 	padding : 2em 0;
-
 }
 
 .service {
@@ -248,11 +247,20 @@ input[type="submit"] {
 
 span.carousel-control-prev-icon {
 	color: black;
-	background-color: #000;
+	background-color: red;
+	border-color: #000;
 }
 
 span.carousel-control-next-icon {
 	background-color: black;
+}
+
+span.carousel-control {
+	color: red;
+}
+
+.carousel-control-icon {
+	color: red;
 }
 
 @media all and (max-width: 1180px) {
@@ -265,9 +273,6 @@ span.carousel-control-next-icon {
 	.about-me__title {
 		margin-top: 0;
 		margin-bottom: 1em;
-	}
-	#about-me h6, #about-me p {
-		width: 100%;
 	}
 }
 
